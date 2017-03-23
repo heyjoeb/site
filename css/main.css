@@ -146,13 +146,13 @@ p {
     }
 
     .team-member {
-        font-size: 18px;
+        font-size: 17px;
         display: inline-block;
         list-style-type: none;
         padding-left: 0;
         padding-bottom: inherit;
         border-bottom: none;
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
 }
