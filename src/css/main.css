@@ -4,7 +4,7 @@
 @import "./partials/blocks.css";
 
 body {
-    background: white url("../img/bg-body.png") top left no-repeat;
+    /*background: white url("../img/bg-body.png") top left no-repeat;*/
     background-size:100% 720px;
     color: #00322e;
     font: 17px/24px "roboto",sans-serif;;
@@ -57,6 +57,11 @@ p {
 
 .container {
     padding: 10px 25px;
+}
+
+.header p {
+ font-size: 20px;
+ line-height: 1.3em;
 }
 
 
