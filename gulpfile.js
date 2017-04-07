@@ -73,10 +73,9 @@ gulp.task('scripts', function() {
 // Watch
 gulp.task('watch', function(){
   gulp.watch('./src/**/*.css', ['css', browserSync.reload]);
-  gulp.watch(['./src/**/*.js', 'main.js'], ['scripts', browserSync.reload]);
+  gulp.watch(['./src/**/*.js'], ['scripts', browserSync.reload]);
   gulp.watch('*.html', browserSync.reload);
   gulp.watch(imgSrc, ['images', browserSync.reload]);
 });
 
 gulp.task('default', ['css', 'browser-sync', 'watch']);
-
