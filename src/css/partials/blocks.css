@@ -8,7 +8,6 @@
         background: #f7f7f7;
         border-radius: 3px;
         padding: 30px 40px;
-        height: 380px;
     }
 
     .block-icon {
@@ -38,13 +37,20 @@
         border-radius: 0 !important;
         width: 33%;
         float: left;
+        height: 550px;
         margin-bottom: 1px;
         margin-right: 1px;
     }
 
-    p {
+    .blocks p {
         font-size: 16px !important;
-        line-height: 1.3em;
+        line-height: 1.4em !important;
         margin-top: 10px;
     }
 }
+
+@media (min-width:1025px) { 
+    .block {
+        height: 480px;
+    }
+ }
