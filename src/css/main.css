@@ -1,58 +1,16 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
+@import "./partials/normalize.css";
+@import "./partials/boilerplate.css";
+@import "./partials/layout.css";
+@import "./partials/blocks.css";
 
 body {
     background: white url("../img/bg-body.png") top left no-repeat;
-    background-size: cover;
+    background-size:100% 800px;
     color: #00322e;
     font: 17px/24px "roboto",sans-serif;;
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: "rift-soft",sans-serif;
     font-weight: 400;
     line-height: 1em;
@@ -72,6 +30,11 @@ h3 {
     margin-top: 10px;
 }
 
+h4 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
 img {
     max-width: 300px;
 }
@@ -88,12 +51,14 @@ p {
 
 .wrapper {
     margin-bottom: 30px;
+    max-width: 1140px;
+
 }
 
 .container {
     padding: 10px 25px;
-    max-width: 780px;
 }
+
 
 .team-members {
 
@@ -143,6 +108,7 @@ p {
         border-bottom: 1px solid #dfe3e2;
         margin-top: 30px;
         padding: 5px 0;
+        margin-bottom: 50px;
     }
 
     .team-member {

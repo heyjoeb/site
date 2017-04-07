@@ -21,6 +21,9 @@ var cssnano = require('cssnano');
 var sourcemaps = require('gulp-sourcemaps');
 var lostgrid = require('lost');
 
+var imgSrc = './src/img/**.*',
+    imgDist = './dist/img';
+
 // Post CSS Stuff
 gulp.task('css', function() {
     var processors = [
@@ -41,8 +44,6 @@ gulp.task('css', function() {
 
 // Image stuff
 gulp.task('images', function() {
-  var imgSrc = './src/img/*',
-      imgDist = './dist/img';
   gulp.src(imgSrc)
     .pipe(newer(imgDist))
     .pipe(image())
@@ -78,4 +79,4 @@ gulp.task('watch', function(){
   gulp.watch(imgSrc, ['images', browserSync.reload]);
 });
 
-gulp.task('default', ['css', 'browser-sync', 'watch']);
+gulp.task('default', ['css', 'images', 'browser-sync', 'watch']);
