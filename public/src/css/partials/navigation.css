@@ -1,0 +1,38 @@
+.nav {
+  padding: 10px;
+  border-bottom: 1px solid #dfe3e2;
+}
+
+.nav a {
+  font-size: 14px;
+}
+
+.nav img {
+  max-height: 25px;
+}
+
+.nav {
+  .mark {
+    float: left;
+  }
+  .main-menu {
+    float: right;
+  }
+
+  :after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+}
