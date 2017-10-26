@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+body{font-family: 'Avenir-Medium';font-size: 16px; line-height: normal;}
+a{
+	text-decoration: none;
+}
+h2{font-size: 48px;color: #182c45;  font-family: 'Avenir-Medium';}
+.main_content{background:url(../images/background.png)no-repeat; background-position: center center; padding: 80px 0 0;}
+#header{visibility: hidden;}
+.navbar-default{background: #ffffff;border:0;margin-bottom: 0px;}
+.container{width: 1440px;}
+.inner_container{width: 930px;margin: 0 auto;}
+.navbar-brand{width: 142px; height: auto;}
+.navbar-brand img{width: 100%;height: auto;}
+.navbar-default .navbar-nav>li>a{ font-family: 'Avenir-Heavy'; color: #182c46; font-size: 15px;text-transform: capitalize;}
+.navbar-default .navbar-nav>li.active > a{color: #18d399;}
+.navbar-nav{padding: 15px 0;}
+.banner .container{position: relative;padding: 130px 0 180px;}
+.banner .inner_container{position: relative;}
+.banner .inner_container:before{content:"";width:105px;height: 8px;left: 0;background: #18d399;position: absolute;bottom: -180px;}
+.banner_logo{width: 330px;display: block;}
+.banner_logo img{width: 100%;height: auto;}
+.banner{}
+.banner h1{font-size: 72px; color: #182c45;line-height: 0.9; font-family: 'Avenir-Black';padding: 35px 0 55px;}
+.green-btn{background: #18d399;border:2px solid #18d399;font-size: 24px;color: #ffffff;display: inline-block; font-family: 'AvenirNextLTPro-Demi';font-weight: 600;text-transform: capitalize;padding: 20px 15px;min-width: 245px;text-align: center;}
+.green-btn:hover,.green-btn:focus{background: #18d399;background: #ffffff; color: #18d399;text-decoration: none;}
+.page-img{position: absolute;right: 0;top: 0; width:645px;z-index: -1;}
+.page-img img{width: 100%;}
+.block1{position: relative;}
+.block1 img{width: 100%;}
+.big_block .h01_img{position: relative;height: 586px;}
+.small_block .h01_img{position: relative;height: 438px;}
+.block img{width: 100%;height: 100%;}
+.home_01 h2{padding: 0 0 35px;}
+.block .h01_txt{position: absolute;left: 25px;bottom: 25px;right: 25px;}
+.block .h01_txt h3,.block .h01_txt h3 a{color: #ffffff;font-size: 24px;line-height: 2.83; font-family: 'Avenir-Black';}
+.block .h01_txt p{color: #ffffff;font-size: 16px;font-family: 'Avenir-Medium';}
+.home_01{padding-top: 70px;}
+.h01_inner{padding-bottom: 204px;position: relative;}
+.h01_inner:before{content:"";width:105px;height: 8px;left: 0;background: #18d399;position: absolute;bottom: 0;}
+.home_02{padding: 75px 0 0;overflow: hidden;}
+.home_02 h2{padding: 0 0 35px;}
+.h02_lt li a{color: #18d399;font-size: 24px;line-height: 1.92;font-family: 'AvenirNextLTPro-Regular'; text-decoration: none;}
+.h02_lt li.active a{  font-weight: 600;}
+.cat_div{background: #18d399 url(../images/img1.png)no-repeat;padding: 68px 80px; }
+.cat_div h2,.cat_div h2 a{color: #ffffff;}
+.cat_div h2{padding-bottom: 15px; font-family: 'AvenirNextLTPro-Demi'; font-weight: 600;}
+.cat_div p{color: #ffffff;font-size: 24px;line-height: 30px; font-family: 'Avenir-Medium';max-width: 420px;}
+.home_02 .inner_container{padding-bottom: 195px;position: relative;}
+.home_02 .inner_container:before,.home_03 .inner_container:before{content:"";width:105px;height: 8px;left: 0;background: #18d399;position: absolute;bottom: 0;}
+.home_03{padding: 70px 0 0;}
+.home_03 .inner_container{padding-bottom: 100px;position: relative;}
+.logo_banner{padding: 80px 0 0;}
+.logo_banner .logo_img{text-align: left;padding-bottom: 80px;}
+.logo_banner .logo_img img{max-width: 100%;display: inline-block;}
+.home_04{padding: 0 0 235px;}
+.home_04 h2{padding: 80px 0 90px;}
+.form-group label{font-family: 'Avenir-book';font-size: 16px; color: #37474f;padding-bottom: 12px;display: block;text-transform: capitalize;}
+.contact_img img{width: 100%;height: 366px;object-fit: cover;object-position: center top;}
+.form-group .green-btn{display: block;width: 100%;}
+.form-control{height: 40px;}
+.fname .form-control{height: 74px;}
+#footer{background:#1d1d1d url(../images/footer-bg.png)no-repeat;background-position: center center;text-align: center;padding: 55px 0 70px;}
+#footer p{font-size:24px;line-height: 1.83; color: #ffffff;font-family: 'Avenir-Medium';}
+.footer_logo{width:35px;margin:0 auto;display: block;padding-bottom: 25px;}
+.footer_logo img{width:100%;height: auto;}
+.bbt{width:24px;display: block;position: absolute;right: 40%;bottom: 0;}
+.bbt img{width:100%;}
+.help{width:19px;display: block;position: absolute;right: 20px;bottom: 5px;}
+.help img{width:100%;height: auto;}
+.form-group{position: relative;}
+.h02_rt{float: right;position: relative;}
+.h02_lt{float: left;}
+#header{position: fixed;width: 100%;top: 0;z-index: 99;box-shadow: 0 0 15px rgba(0,0,0,0.5);-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5); -o-box-shadow: 0 0 15px rgba(0,0,0,0.5);}
+.slick-slider{outline: 0;}
+.right-div{position: absolute;top: 0;left: 100%;width: 100%;opacity: 0.5;}
