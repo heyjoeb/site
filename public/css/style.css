@@ -89,7 +89,7 @@ h2{font-size: 48px;color: #182c45;  font-family: 'Avenir-Medium';}
 .home_02 h2{padding: 0 0 35px;}
 .h02_lt li a{color: #18d399;font-size: 24px;line-height: 1.92;font-family: 'AvenirNextLTPro-Regular'; text-decoration: none;}
 .h02_lt li.active a{  font-weight: 600;}
-.cat_div{background: #18d399 url(../images/img1.png)no-repeat;padding: 68px 80px; }
+.cat_div{background: padding: 68px 80px; }
 .cat_div h2,.cat_div h2 a{color: #ffffff;}
 .cat_div h2{padding-bottom: 15px; font-family: 'AvenirNextLTPro-Demi'; font-weight: 600;}
 .cat_div p{color: #ffffff;font-size: 24px;line-height: 30px; font-family: 'Avenir-Medium';max-width: 420px;}
