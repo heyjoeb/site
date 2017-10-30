@@ -68,7 +68,7 @@ h2{font-size: 48px;color: #182c45;  font-family: 'Avenir-Medium';}
 .banner_logo{width: 330px;display: block;}
 .banner_logo img{width: 100%;height: auto;}
 .banner{}
-.banner h1{font-size: 72px; color: #182c45;line-height: 0.9; font-family: 'Avenir-Black';padding: 35px 0 55px;}
+.banner h1{font-size: 72px; color: #182c45;line-height: 1.1; font-family: 'Avenir-Black';padding: 35px 0 55px;}
 .green-btn{background: #18d399;border:2px solid #18d399;font-size: 24px;color: #ffffff;display: inline-block; font-family: 'AvenirNextLTPro-Demi';font-weight: 600;text-transform: capitalize;padding: 18px 15px;min-width: 245px;text-align: center; line-height: 24px;}
 .green-btn:hover,.green-btn:focus{background: #18d399;background: #ffffff; color: #18d399;text-decoration: none;}
 .page-img{position: absolute;right: 0;top: 0; width:645px;z-index: -1;}
