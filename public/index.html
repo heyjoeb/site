@@ -6,14 +6,15 @@
 <title>Bulid</title>
 
 <!-- SET: FAVICON -->
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link rel="shortcut icon" type="image/PNG" href="images/Page1.png">
 <!-- END: FAVICON -->
 
 <!-- SET: STYLESHEET -->
     
 <link href="css/slick.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/nice-select.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all">
@@ -47,16 +48,18 @@
 									<span class="icon-bar"></span>
 								  </button>
 								  <a class="navbar-brand" href="#">
-									<img alt="Brand" src="images/logo.png">
+									<img alt="Brand" src="images/logo.png" alt="logo">
 								  </a>
 							</div>
 							  <!-- Collect the nav links, forms, and other content for toggling -->
-                           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                           <div class="collapse navbar-collapse main-nav" id="bs-example-navbar-collapse-1">
 								   <ul class="nav navbar-nav navbar-right">
-									    <li><a href="#">Our Work</a></li>
-									    <li><a href="#">How We Build</a></li>
-									    <li><a href="#">Previous Clients</a></li>
-									    <li><a href="#">Work With Us</a></li>
+									  
+									    <li><a href="#header">home</a></li>
+									    <li><a href="#section0">Our Work</a></li>
+									    <li ><a href="#section1">How We Build</a></li>
+									    <li ><a href="#section3">Previous Clients</a></li>
+									    <li ><a href="#section4">Work With Us</a></li>
 								   </ul>
 							  </div>
 						  </div>
@@ -66,8 +69,8 @@
             <!-- END: HEADER -->
             
             <!-- SET: MAIN CONTENT -->
-            	<div class="main_content">
-                	<div class="banner">
+            	<div class="main_content" id="sec1">
+                	<div class="banner section" id="section0">
 						<div class="container">
 							<div class="page-img">
 								<img src="images/Page1.png" alt="page image">
@@ -79,17 +82,17 @@
 								<h1>We build value through amazing digital products.</h1>
 								<a href="#" class="green-btn">Let’s Get Started</a>
 							</div>
-						<span class="bbt"><img src="images/fill.png" alt="bottom"></span>
+						<a href="#" class="bbt"><img src="images/fill.png" alt="bottom"></a>
 						</div>
 					</div>
-					<div class="home_01">
+					<div class="home_01 section" id="section1">
 						<div class="inner_container">
 							<h2>We have a proven record of delivery, mixed with decades of expertise in digital products & partnerships. Here are some examples:</h2>
 							<div class="h01_inner clearfix">
 								<div class="col-sm-6 block">
 								<div class="row big_block">
 									<div class="h01_img">
-									<img src="images/green-img.png">
+									<img src="images/green-img.png" alt="image">
 									<div class="h01_txt">
 										<h3>Title Goes Here</h3>
 										<p>We have a proven record of delivery, mixed with decades of expertise in digital products & partnerships. Here are some examples:</p>
@@ -98,7 +101,7 @@
 								</div>
 								<div class="row small_block">
 									<div class="h01_img">
-									<img src="images/green-img.png">
+									<img src="images/green-img.png" alt="image">
 									<div class="h01_txt">
 										<h3>Title Goes Here</h3>
 										<p>We have a proven record of delivery, mixed with decades of expertise in digital products & partnerships. Here are some examples:</p>
@@ -109,7 +112,7 @@
 							<div class="col-sm-6 block">
 								<div class="row small_block">
 									<div class="h01_img">
-									<img src="images/green-img.png">
+									<img src="images/green-img.png" alt="image">
 									<div class="h01_txt">
 										<h3>Title Goes Here</h3>
 										<p>We have a proven record of delivery, mixed with decades of expertise in digital products & partnerships. Here are some examples:</p>
@@ -118,7 +121,7 @@
 								</div>
 								<div class="row big_block">
 									<div class="h01_img">
-									<img src="images/green-img.png">
+									<img src="images/green-img.png" alt="image">
 									<div class="h01_txt">
 										<h3>Title Goes Here</h3>
 										<p>We have a proven record of delivery, mixed with decades of expertise in digital products & partnerships. Here are some examples:</p>
@@ -131,29 +134,41 @@
 							
 						</div>
 					</div>
-					<div class="home_02">
+					<div class="home_02 section" id="section2">
 						<div class="inner_container">
 							<h2>Our modular approach focuses on using the right tools for the right problem. Depending on what stage your product is in, we will provide the best way to assess, improve and deliver</h2>
 							<div class="row">
-							<div class="col-sm-8 h02_rt">
+							<div class="col-sm-8 h02_rt eq">
 								<div class="row">
-									<div class="cat_div">
+									<div id="slider">
+										<div class="cat_div">
 										<h2>Discovery</h2>
 										<p>You have a great idea to serve new or existing customers, but there are still gaps to get your product built. We can take your concept and produce a clear, actionable and achievable roadmap.</p>
-									</div>
-									<div class="cat_div right-div">
-										<h2>UX Design</h2>
-										<p>The first step in creating a delightful experience for your users is defining what your product will look like and how your users will interact with it. We will provide you a complete design that is not only beautiful & functional, it's also feasible.
-</p>
+										</div>
+										<div class="cat_div ">
+											<h2>UX Design</h2>
+											<p>The first step in creating a delightful experience for your users is defining what your product will look like and how your users will interact with it. We will provide you a complete design that is not only beautiful & functional, it's also feasible.
+	</p>
+										</div>
+										<div class="cat_div ">
+											<h2>UX Design</h2>
+											<p>The first step in creating a delightful experience for your users is defining what your product will look like and how your users will interact with it. We will provide you a complete design that is not only beautiful & functional, it's also feasible.
+	</p>
+										</div>
+										<div class="cat_div ">
+											<h2>UX Design</h2>
+											<p>The first step in creating a delightful experience for your users is defining what your product will look like and how your users will interact with it. We will provide you a complete design that is not only beautiful & functional, it's also feasible.
+	</p>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-sm-4 h02_lt">
-								<ul>
-									<li class="active"><a href="#">Discovery</a></li>
-									<li><a href="#">User Experience</a></li>
-									<li><a href="#">Development</a></li>
-									<li><a href="#">Tech Audit</a></li>
+							<div class="col-sm-4 h02_lt eq">
+								<ul class="center-dots">
+									<li data-slide="1" class="active"><a href="#">Discovery</a></li>
+									<li data-slide="2"><a href="#">User Experience</a></li>
+									<li data-slide="3"><a href="#">Development</a></li>
+									<li data-slide="4"><a href="#">Tech Audit</a></li>
 								</ul>
 							</div>
 
@@ -161,7 +176,7 @@
 						</div>
 						
 					</div>
-					<div class="home_03">
+					<div class="home_03 section" id="section3">
 						<div class="inner_container">
 							<h2>Who we have worked with.</h2>
 							<div class="logo_banner clearfix">
@@ -196,7 +211,7 @@
 						</div>
 						
 					</div>
-					<div class="home_04">
+					<div class="home_04 section" id="section4">
 						<div class="inner_container">
 							<h2>Weather you are ready to get started, or just want to talk about some ideas, Here is a good place to start</h2>
 							<div class="form-section">
@@ -219,13 +234,21 @@
 											</div>
 											<div class="form-group col-sm-6">
 												<label>project type</label>
-												<input type="text" class="form-control" placeholder="Insert">
-												<span class="help"><img src="images/help.jpg"></span>
+												<select class="form-control">
+													<option default>Insert</option>
+													<option>option2</option>
+													<option>option2</option>
+												</select>
+<!--												<span class="help"><img src="images/help.jpg"></span>-->
 											</div>
 											<div class="form-group col-sm-6">
 												<label>budget</label>
-												<input type="text" class="form-control" placeholder="Insert">
-												<span class="help"><img src="images/help.jpg"></span>
+												<select class="form-control ">
+													<option default>Insert</option>
+													<option>option1</option>
+													<option>option2</option>
+												</select>
+<!--												<span class="help"><img src="images/help.jpg"></span>-->
 											</div>
 											<div class="form-group col-sm-12 fname">
 												<label>first name</label>
@@ -263,6 +286,8 @@
 
 <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.scroller.js"></script>
+<script type="text/javascript" src="js/jquery.nice-select.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 

@@ -2,7 +2,7 @@
 	.container{max-width: 1440px;width: 100%;}
 }
 @media only screen and (max-width:991px){
-	h2{font-size: 32px;}
+	h2,.home_04 h2{font-size: 32px;}
 	.inner_container{width: auto;padding: 0 15px;}
 	.banner{overflow: hidden;}
 	.page-img{left: 65%;}
@@ -20,8 +20,11 @@
 	.form-section .col-sm-5{padding-left: 0;}
 	.home_04{    padding: 0 0 80px;}
 }
+@media only screen and (max-width:991px){
+	
+}
 @media only screen and (max-width:767px){
-	h2{font-size: 24px;}
+	h2,.home_04 h2{font-size: 24px;}
 	.page-img{display: none;}
 	.banner .container{padding: 20px 0 100px;}
 	.banner .inner_container:before{bottom: -100px;}
@@ -50,4 +53,11 @@
 	.navbar-toggle{margin-top: 21px;}
 	.navbar-default .navbar-toggle{border-color: #18d399;}
 	.navbar-default .navbar-toggle .icon-bar{background-color: #18d399;}
+	.main-nav .nav li:nth-child(1){display: none;}
+	#header .collapse.in{display: none;}
+	#header.sticky_header .collapse.in{display: block;}
+
+}
+@media only screen and (max-width:480px){
+	.green-btn{width: 100%;}
 }

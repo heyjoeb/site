@@ -52,15 +52,15 @@ a{
 	text-decoration: none;
 }
 h2{font-size: 48px;color: #182c45;  font-family: 'Avenir-Medium';}
-.main_content{background:url(../images/background.png)no-repeat; background-position: center center; padding: 80px 0 0;}
-#header{visibility: hidden;}
+.main_content{background:url(../images/background.png)no-repeat; background-position: center center; padding: 0;}
 .navbar-default{background: #ffffff;border:0;margin-bottom: 0px;}
 .container{width: 1440px;}
 .inner_container{width: 930px;margin: 0 auto;}
 .navbar-brand{width: 142px; height: auto;}
 .navbar-brand img{width: 100%;height: auto;}
 .navbar-default .navbar-nav>li>a{ font-family: 'Avenir-Heavy'; color: #182c46; font-size: 15px;text-transform: capitalize;}
-.navbar-default .navbar-nav>li.active > a{color: #18d399;}
+.main-nav .nav li:nth-child(1){opacity: 0;}
+.navbar-default .navbar-nav>li > a.active,.navbar-default .navbar-nav>li:hover > a{color: #18d399;}
 .navbar-nav{padding: 15px 0;}
 .banner .container{position: relative;padding: 130px 0 180px;}
 .banner .inner_container{position: relative;}
@@ -69,7 +69,7 @@ h2{font-size: 48px;color: #182c45;  font-family: 'Avenir-Medium';}
 .banner_logo img{width: 100%;height: auto;}
 .banner{}
 .banner h1{font-size: 72px; color: #182c45;line-height: 0.9; font-family: 'Avenir-Black';padding: 35px 0 55px;}
-.green-btn{background: #18d399;border:2px solid #18d399;font-size: 24px;color: #ffffff;display: inline-block; font-family: 'AvenirNextLTPro-Demi';font-weight: 600;text-transform: capitalize;padding: 20px 15px;min-width: 245px;text-align: center;}
+.green-btn{background: #18d399;border:2px solid #18d399;font-size: 24px;color: #ffffff;display: inline-block; font-family: 'AvenirNextLTPro-Demi';font-weight: 600;text-transform: capitalize;padding: 18px 15px;min-width: 245px;text-align: center; line-height: 24px;}
 .green-btn:hover,.green-btn:focus{background: #18d399;background: #ffffff; color: #18d399;text-decoration: none;}
 .page-img{position: absolute;right: 0;top: 0; width:645px;z-index: -1;}
 .page-img img{width: 100%;}
@@ -98,26 +98,45 @@ h2{font-size: 48px;color: #182c45;  font-family: 'Avenir-Medium';}
 .home_03{padding: 70px 0 0;}
 .home_03 .inner_container{padding-bottom: 100px;position: relative;}
 .logo_banner{padding: 80px 0 0;}
-.logo_banner .logo_img{text-align: left;padding-bottom: 80px;}
+.logo_banner .logo_img{text-align: center;padding-bottom: 80px;}
 .logo_banner .logo_img img{max-width: 100%;display: inline-block;}
 .home_04{padding: 0 0 235px;}
-.home_04 h2{padding: 80px 0 90px;}
+.home_04 h2{padding: 80px 0 90px;font-size: 42px;}
 .form-group label{font-family: 'Avenir-book';font-size: 16px; color: #37474f;padding-bottom: 12px;display: block;text-transform: capitalize;}
-.contact_img img{width: 100%;height: 366px;object-fit: cover;object-position: center top;}
-.form-group .green-btn{display: block;width: 100%;}
-.form-control{height: 40px;}
+.contact_img img{width: 100%;height: 360px;object-fit: cover;object-position: center top;}
+.form-group .green-btn{display: block;width: 100%;font-size: 20px;}
+.form-control{height: 40px;outline: 0;box-shadow: 0;}
+.form-control:focus{outline: 0;box-shadow: 0;}
 .fname .form-control{height: 74px;}
 #footer{background:#1d1d1d url(../images/footer-bg.png)no-repeat;background-position: center center;text-align: center;padding: 55px 0 70px;}
 #footer p{font-size:24px;line-height: 1.83; color: #ffffff;font-family: 'Avenir-Medium';}
 .footer_logo{width:35px;margin:0 auto;display: block;padding-bottom: 25px;}
 .footer_logo img{width:100%;height: auto;}
-.bbt{width:24px;display: block;position: absolute;right: 40%;bottom: 0;}
+.bbt{width:24px;display: block;position: absolute;right: 20%;bottom: -10px;}
 .bbt img{width:100%;}
 .help{width:19px;display: block;position: absolute;right: 20px;bottom: 5px;}
 .help img{width:100%;height: auto;}
 .form-group{position: relative;}
 .h02_rt{float: right;position: relative;}
-.h02_lt{float: left;}
-#header{position: fixed;width: 100%;top: 0;z-index: 99;box-shadow: 0 0 15px rgba(0,0,0,0.5);-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5); -o-box-shadow: 0 0 15px rgba(0,0,0,0.5);}
+.h02_lt{float: left;position: relative;}
+#header{position: fixed;width: 100%;top: 0;z-index: 99;box-shadow: 0 0 15px rgba(0,0,0,0.5);-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5);-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5); -o-box-shadow: 0 0 15px rgba(0,0,0,0.5);top: -80px;transition: all 0.5s ease-in;-webkit-transition: all 0.5s ease-in;-o-transition: all 0.5s ease-in;-moz-transition: all 0.5s ease-in;}
+#header.sticky_header{top: 0;}
 .slick-slider{outline: 0;}
 .right-div{position: absolute;top: 0;left: 100%;width: 100%;opacity: 0.5;}
+.main-nav ul li:first-child(1){opacity: 1;}
+#slider .slick-list{overflow: visible;}
+.home_02{position: relative;overflow: hidden;}
+.h02_lt:before{content:""; background:#ffffff; width:3000px; height: 100%; position: absolute; right: 0;top: 0; }
+ .h02_lt ul{position: relative;}
+#slider .slick-slide.slick-current{opacity: 1;}
+#slider .slick-slide{opacity: 0.5;}
+.slick-initialized .slick-slide{outline: 0;}
+body{padding-top: 0!important;}
+.nice-select{width: 100%;line-height: 27px;}
+.nice-select .list{width: 100%;}
+.nice-select:after{
+	border-bottom: 2px solid #18d399;
+    border-right: 2px solid #18d399;
+	width: 7px;
+	height: 7px;
+}
