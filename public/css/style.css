@@ -150,3 +150,41 @@ body{padding-top: 0!important;}
 	line-height: inherit;
 
 }
+
+.social ul {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	font-size: 1em;
+	width: 22%;
+  }
+  
+.social a {
+	color: #ddd;
+	text-decoration: none;
+	transition: all .5s ease-in-out;
+  }
+  [title="Twitter"]:hover{
+	color: rgb(85,172,238);
+  }
+  [title="Medium"]:hover{
+	color: rgb(75,75,75);
+  }
+  [title="LinkedIn"]:hover{
+	color: rgb(0,119,181);
+  }
+  [center]{
+	text-align: center;
+  }
+  
+  html, body {
+	height: 100%;
+	width: 100%;
+  }
+  
+  .social {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
