@@ -8,7 +8,8 @@ $(document).ready(function(){
 		}
 	});
 	$('select').niceSelect();
-	$('.main-nav').scroller();
+  $('.main-nav').scroller();
+  $('.smooth-btn').scroller();
 	$('.logo_banner').slick({
 	  dots: false,
 	  infinite: false,
