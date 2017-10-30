@@ -140,3 +140,13 @@ body{padding-top: 0!important;}
 	width: 7px;
 	height: 7px;
 }
+
+#section1 p, #section1 h3 {
+	color: #182c45;
+}
+
+#section1 h3 {
+	font-size: 48px;
+	line-height: inherit;
+
+}
