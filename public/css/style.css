@@ -188,3 +188,12 @@ body{padding-top: 0!important;}
 	align-items: center;
 	justify-content: center;
   }
+
+  .blog_link {
+	color: #18d399;
+	font-size: 50px;
+	line-height: 1.92;
+	font-family: 'AvenirNextLTPro-Regular'; 
+	text-decoration: none;
+	font-weight: bolder;
+  }
