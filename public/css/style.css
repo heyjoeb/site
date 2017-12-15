@@ -197,3 +197,68 @@ body{padding-top: 0!important;}
 	text-decoration: none;
 	font-weight: bolder;
   }
+  /* -----------------------------------------
+
+BLOCKCHAIN LANDING
+
+------------------------------------------- */
+.blockchain .banner {
+	background-color: #18d399;
+	color:  #fff;
+	position: relative;
+}
+.blockchain .page-img {
+	width: 489px;
+}
+.blockchain .banner::before {
+	content:  "";
+	position: absolute;
+	bottom: 0;
+	left:  0;
+	width: 100%;
+	background-image: url('../images/blockChainLG.svg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	z-index: 0;
+	height: 460px;
+	display: block;
+}
+.blockchain .banner .container {
+	padding-bottom: 100px;
+}
+.blockchain .page-img {
+	z-index: 0;
+}
+.blockchain .banner h1 {
+	font-size: 48px;
+	color: #fff;
+	margin-top: 100px;
+}
+.blockchain .banner h1 .txt-yellow {
+	color: #eafc97;
+	display: block;
+	font-size: 60px;
+	padding-top: 20px;
+	position: relative;
+}
+.blockchain .banner h1 .txt-yellow::after {
+	content:  "";
+	position: absolute;
+	left:  0;
+	bottom: -35px;
+	height: 10px;
+	width: 100px;
+	background-color: #eafc97;
+}
+.blockchain .banner p {
+	font-size: 38px;
+	margin-top: 30px;
+}
+.blockchain .home_04 h2 {
+	font-size: 36px;
+}
+.blockchain .banner .inner_container:before {
+	bottom:  -165px;
+}
