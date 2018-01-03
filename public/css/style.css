@@ -262,3 +262,39 @@ BLOCKCHAIN LANDING
 .blockchain .banner .inner_container:before {
 	bottom:  -165px;
 }
+  /* -----------------------------------------
+
+THANK YOU
+
+------------------------------------------- */
+.thankyou .banner {
+	background-color: #18d399;
+	color:  #fff;
+	position: relative;
+}
+.thankyou .banner .container {
+	min-height: 80vh;
+}
+.thankyou .banner .txt-yellow {
+	font-size: 60px;
+	color: #eafc97;
+	margin-top: 100px;
+	position: relative;
+}
+.thankyou .banner .txt-yellow::after {
+	content:  "";
+	position: absolute;
+	left:  0;
+	bottom: 15px;
+	height: 10px;
+	width: 100px;
+	background-color: #eafc97;
+}
+.bl
+.thankyou .page-img {
+	z-index: 0;
+}
+.thankyou .banner p {
+	font-size: 38px;
+	margin-top: 30px;
+}
